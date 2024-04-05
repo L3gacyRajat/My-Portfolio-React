@@ -12,7 +12,7 @@
     }
 
     .moutains{
-        background-image: url("mountains.png");
+        background-image: url("/mountains.png");
         background-size: cover;
         background-position: bottom;
         height: 100%;
@@ -21,7 +21,7 @@
         z-index: 3;
     }
     .planets{
-        background-image: url("planets.png");
+        background-image: url("/planets.png");
         background-size: cover;
         background-position: bottom;
         height: 100%;
@@ -30,7 +30,7 @@
         z-index: 2;
     }
     .stars{
-        background-image: url("stars.png");
+        background-image: url("/stars.png");
         background-size: cover;
         background-position: bottom;
         height: 100%;
