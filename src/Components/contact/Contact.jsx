@@ -76,8 +76,8 @@ function Contact() {
           transition={{ delay: 3, duration: 1 }}
         >
           <svg
-            width="450px"
-            height="450px"
+            // width="450px"
+            // height="450px"
             viewBox="-0.5 0 25 25"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

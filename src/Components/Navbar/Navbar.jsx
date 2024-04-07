@@ -16,14 +16,25 @@ export default function Navbar() {
           Rajat
         </motion.span>
         <div className="social">
-          <a href="#">
-            <img src="/facebook.png" alt="" />
+          <a href="https://github.com/L3gacyRajat" target="blank">
+            <img
+              style={{ height: "30px", width: "30px" }}
+              src="/github.png"
+              alt=""
+            />
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/_rajat_rj_/" target="blank">
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="">
+          <a href="https://www.youtube.com/@RJAnimeofficial/" target="blank">
             <img src="/youtube.png" alt="" />
+          </a>
+          <a href="https://discord.com/users/l3gacy0811" target="blank">
+            <img
+              style={{ height: "32px", width: "32px" }}
+              src="/discord.png"
+              alt=""
+            />
           </a>
         </div>
       </div>

@@ -55,8 +55,14 @@ export default function Hero() {
             Web developer and UI designer
           </motion.h1>
           <div className="buttons">
-            <motion.button variants={textVariants}>See The CV</motion.button>
-            <motion.button variants={textVariants}>Contact Me!</motion.button>
+            <motion.button variants={textVariants}>
+              <a href="/cv.pdf" target="_blank">
+                See My CV
+              </a>
+            </motion.button>
+            <motion.button variants={textVariants}>
+              <a href="#Contact">Contact Me!!</a>
+            </motion.button>
           </div>
           <motion.img
             variants={textVariants}

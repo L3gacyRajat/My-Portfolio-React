@@ -6,20 +6,23 @@ const items = [
   {
     id: 1,
     title: "Flutter Weather App",
-    img: "weather2.jpg",
-    disc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius at provident ipsa. Dicta impedit qui incidunt, explicabo, repudiandae esse mollitia vero maiores est eos sunt distinctio? Iure nulla nostrum vero tempora doloremque nisi harum enim fugit consequuntur, atque saepe magnam?",
+    img: "weather3.png",
+    btnurl: "https://github.com/L3gacyRajat/Weather-App",
+    disc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius at provident ipsa. Dicta impedit qui incidunt, explicabo, repudiandae esse mollitia vero maiores est eos sunt distinctio? Iure nulla nostrum vero tempora doloremque nisi?",
   },
   {
     id: 2,
     title: "Gaming Social Media",
     img: "gaming.png",
-    disc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius at provident ipsa. Dicta impedit qui incidunt, explicabo, repudiandae esse mollitia vero maiores est eos sunt distinctio? Iure nulla nostrum vero tempora doloremque nisi harum enim fugit consequuntur, atque saepe magnam?",
+    btnurl: "https://l3gacyrajat.github.io/Gaming-Social-Media/",
+    disc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius at provident ipsa. Dicta impedit qui incidunt, explicabo, repudiandae esse mollitia vero maiores est eos sunt distinctio? Iure nulla nostrum vero tempora doloremque nisi?",
   },
   {
     id: 3,
     title: "React Portfolio",
     img: "portfo.png",
-    disc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius at provident ipsa. Dicta impedit qui incidunt, explicabo, repudiandae esse mollitia vero maiores est eos sunt distinctio? Iure nulla nostrum vero tempora doloremque nisi harum enim fugit consequuntur, atque saepe magnam?",
+    btnurl: "https://rajatkumarsingh.netlify.app/",
+    disc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius at provident ipsa. Dicta impedit qui incidunt, explicabo, repudiandae esse mollitia vero maiores est eos sunt distinctio? Iure nulla nostrum vero tempora doloremque nisi?",
   },
 ];
 
@@ -41,7 +44,11 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.disc}</p>
-            <button>See Demo</button>
+            <button>
+              <a href={item.btnurl} target="_blank">
+                See Demo
+              </a>
+            </button>
           </motion.div>
         </div>
       </div>

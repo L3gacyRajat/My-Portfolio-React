@@ -26,7 +26,7 @@ const itemVariants = {
 };
 
 export default function () {
-  const items = ["Homepage", "Skills", "Portfolio", "Services", "Contact"];
+  const items = ["Homepage", "Skills", "Portfolio", "Contact", "About Me"];
   return (
     <motion.div className="links" variants={variants}>
       {items.map((item) => (
