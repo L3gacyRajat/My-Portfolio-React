@@ -1,6 +1,6 @@
 @import "../../app.scss";
 .hero{
-    height:calc(100vh - 100px);
+    height:calc(100vh - 70px);
     background: linear-gradient(180deg, #0c0c1d, #111132);
     overflow: hidden;
     position: relative;
@@ -85,10 +85,11 @@
             margin-top: 50px;
             margin-right: 115px;
             @include mobile{
-                // width: 80%;
+                width: 85%;
+                height: 85%;
                 // margin: 30px 37px;
                 object-fit: contain;
-                margin: 20px;
+                margin: 10px 27px;
             }
             
         }

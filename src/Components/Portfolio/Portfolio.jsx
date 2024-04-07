@@ -8,21 +8,21 @@ const items = [
     title: "Flutter Weather App",
     img: "weather3.png",
     btnurl: "https://github.com/L3gacyRajat/Weather-App",
-    disc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius at provident ipsa. Dicta impedit qui incidunt, explicabo, repudiandae esse mollitia vero maiores est eos sunt distinctio? Iure nulla nostrum vero tempora doloremque nisi?",
+    disc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius at provident ipsa. Dicta impedit qui incidunt, explicabo, repudiandae esse mollitia vero maiores est eos sunt distinctio? Iure nulla nostrum vero?",
   },
   {
     id: 2,
     title: "Gaming Social Media",
     img: "gaming.png",
     btnurl: "https://l3gacyrajat.github.io/Gaming-Social-Media/",
-    disc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius at provident ipsa. Dicta impedit qui incidunt, explicabo, repudiandae esse mollitia vero maiores est eos sunt distinctio? Iure nulla nostrum vero tempora doloremque nisi?",
+    disc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius at provident ipsa. Dicta impedit qui incidunt, explicabo, repudiandae esse mollitia vero maiores est eos sunt distinctio? Iure nulla nostrum vero?",
   },
   {
     id: 3,
     title: "React Portfolio",
     img: "portfo.png",
     btnurl: "https://rajatkumarsingh.netlify.app/",
-    disc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius at provident ipsa. Dicta impedit qui incidunt, explicabo, repudiandae esse mollitia vero maiores est eos sunt distinctio? Iure nulla nostrum vero tempora doloremque nisi?",
+    disc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius at provident ipsa. Dicta impedit qui incidunt, explicabo, repudiandae esse mollitia vero maiores est eos sunt distinctio? Iure nulla nostrum vero?",
   },
 ];
 

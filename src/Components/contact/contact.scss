@@ -11,7 +11,7 @@
         width: 100%;
         padding: 10px;
         flex-direction: column;
-        gap: 10px;
+        gap: 16px;
     }
 
     .textContainer{
@@ -23,7 +23,8 @@
             gap: 20px;
             align-items: center;
             text-align: center;
-            margin-top: 40px;
+            margin-top: 42px;
+            flex: unset;
         }
 
         h1{
@@ -42,7 +43,7 @@
         flex:1;
         position: relative;
         @include mobile{
-            padding: 40px 50px;
+            padding: 10px 50px;
             width: 100%;
             align-items: center;
             text-align: center;
@@ -59,7 +60,7 @@
             @include mobile{
                 height: 250px;
                 width: 250px;
-                
+                margin: 0 20px;
             }
         }
 
