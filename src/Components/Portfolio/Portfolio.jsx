@@ -8,21 +8,21 @@ const items = [
     title: "Flutter Weather App",
     img: "weather3.png",
     btnurl: "https://github.com/L3gacyRajat/Weather-App",
-    disc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius at provident ipsa. Dicta impedit qui incidunt, explicabo, repudiandae esse mollitia vero maiores est eos sunt distinctio? Iure nulla nostrum vero?",
+    disc: "Discover global weather instantly with my Realtime Weather App. Using Flutter for sleek design and Open Weather API for live data, stay informed and plan confidently for any destination. Wherever you go, stay ahead with real-time weather updates.",
   },
   {
     id: 2,
     title: "Gaming Social Media",
     img: "gaming.png",
     btnurl: "https://l3gacyrajat.github.io/Gaming-Social-Media/",
-    disc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius at provident ipsa. Dicta impedit qui incidunt, explicabo, repudiandae esse mollitia vero maiores est eos sunt distinctio? Iure nulla nostrum vero?",
+    disc: "Dive into a customized gaming social experience powered by HTML, CSS, and JavaScript. Explore interactive features including search and popup notifications, alongside a theme customizer for personalized backgrounds, colors, and fonts.",
   },
   {
     id: 3,
     title: "React Portfolio",
     img: "portfo.png",
     btnurl: "https://rajatkumarsingh.netlify.app/",
-    disc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius at provident ipsa. Dicta impedit qui incidunt, explicabo, repudiandae esse mollitia vero maiores est eos sunt distinctio? Iure nulla nostrum vero?",
+    disc: "Crafted my personal portfolio website with ReactJS and Framer Motion, enhancing user experience with dynamic animations. From UI design in Figma to development, explore my projects and journey seamlessly through captivating visuals.",
   },
 ];
 
