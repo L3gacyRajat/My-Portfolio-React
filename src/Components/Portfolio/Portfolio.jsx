@@ -12,17 +12,24 @@ const items = [
   },
   {
     id: 2,
-    title: "Gaming Social Media",
+    title: "Crop Prediction AI-ML",
+    img: "crop.jpg",
+    btnurl: "https://github.com/L3gacyRajat/Fasal-Crop-Predictor",
+    disc: " Developed a machine-learning-powered crop prediction system to assist farmers with decision-making. Integrated weather APIs and soil data analysis to recommend optimal crops tailored to environmental conditions. Engineered a user-friendly interface in React.js with Tailwind CSS for seamless user interaction. Achieved 95% prediction accuracy using a Random Forest classifier for data-driven insights.",
+  },
+  {
+    id: 3,
+    title: "Gaming Social Media - UI",
     img: "gaming.png",
     btnurl: "https://l3gacyrajat.github.io/Gaming-Social-Media/",
     disc: "Dive into a customized gaming social experience powered by HTML, CSS, and JavaScript. Explore interactive features including search and popup notifications, alongside a theme customizer for personalized backgrounds, colors, and fonts.",
   },
   {
-    id: 3,
-    title: "React Portfolio",
-    img: "portfo.png",
-    btnurl: "https://rajatkumarsingh.netlify.app/",
-    disc: "Crafted my personal portfolio website with ReactJS and Framer Motion, enhancing user experience with dynamic animations. From UI design in Figma to development, explore my projects and journey seamlessly through captivating visuals.",
+    id: 4,
+    title: "ChatBuddy - Realtime Chat App",
+    img: "chatb.png",
+    btnurl: "https://chatbuddy-2lhx.onrender.com/",
+    disc: "Created a responsive chat application for real-time communication. Implemented WebSocket-based communication and user authentication. Developed modular components, including message broadcasting and status indicators.",
   },
 ];
 
