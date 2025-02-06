@@ -27,7 +27,7 @@ const items = [
   {
     id: 4,
     title: "ChatBuddy - Realtime Chat App",
-    img: "chatb.png",
+    img: "chat.png",
     btnurl: "https://chatbuddy-2lhx.onrender.com/",
     disc: "Created a responsive chat application for real-time communication. Implemented WebSocket-based communication and user authentication. Developed modular components, including message broadcasting and status indicators.",
   },
