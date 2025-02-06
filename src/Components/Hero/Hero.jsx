@@ -26,20 +26,6 @@ const textVariants = {
   },
 };
 
-const slideTextVariants = {
-  initial: {
-    x: 0,
-  },
-  animate: {
-    x: "-220%",
-    transition: {
-      repeat: Infinity,
-      repeatType: "mirror",
-      duration: 20,
-    },
-  },
-};
-
 export default function Hero() {
   return (
     <div className="hero">
@@ -52,16 +38,16 @@ export default function Hero() {
         >
           <motion.h2 variants={textVariants}>RAJAT KUMAR SINGH</motion.h2>
           <motion.h1 variants={textVariants}>
-            Web developer and UI designer
+            Full-Stack Software Developer
           </motion.h1>
           <div className="buttons">
             <motion.button variants={textVariants}>
               <a href="/cv.pdf" target="_blank">
-                See My CV
+                See My Resume
               </a>
             </motion.button>
             <motion.button variants={textVariants}>
-              <a href="#Contact">Contact Me!!</a>
+              <a href="#Contact">Get In Touch</a>
             </motion.button>
           </div>
           <motion.img
@@ -72,14 +58,6 @@ export default function Hero() {
           />
         </motion.div>
       </div>
-      <motion.div
-        variants={slideTextVariants}
-        initial="initial"
-        animate="animate"
-        className="slidingTextContainer"
-      >
-        Anime Content Creator Influencer
-      </motion.div>
       <div className="imageContainer">
         <img src="hero1.png" alt="" />
       </div>

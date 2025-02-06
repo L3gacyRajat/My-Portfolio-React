@@ -1,6 +1,8 @@
 @import "../../app.scss";
 .navbar{
     height: 100px;
+    background: white;
+    color:black;
     .wrapper{
         max-width: 1366px;
         margin: auto;
@@ -22,7 +24,7 @@
             }
         }
 
-        .social{
+        .links{
             display: flex;
             gap: 20px;
             align-items: center;

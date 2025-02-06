@@ -6,6 +6,7 @@ import Services from "./Components/Services/Services.jsx";
 import Portfolio from "./Components/Portfolio/Portfolio.jsx";
 import Contact from "./Components/contact/Contact.jsx";
 import Cursor from "./Components/Cursor/Cursor.jsx";
+import About from "./Components/About/About.jsx";
 
 function App() {
   return (
@@ -15,16 +16,15 @@ function App() {
         <Navbar />
         <Hero />
       </section>
-      <section id="Skills">
-        <Parallax type="skill" />
+      <section id="About Me">
+        <About />
       </section>
-      <section>
+      <section id="Skills">
         <Services />
       </section>
-      <section id="Portfolio">
-        <Parallax type="portfolio" />
-      </section>
-      <Portfolio />
+      <span id="Portfolio">
+        <Portfolio />
+      </span>
       <section id="Contact">
         <Contact id="Contact" />
       </section>

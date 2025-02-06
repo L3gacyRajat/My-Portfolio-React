@@ -64,7 +64,7 @@ function Contact() {
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
-          <span>+91 90845 3XXXX</span>
+          <span>+91 90845 37785</span>
         </motion.div>
       </motion.div>
 

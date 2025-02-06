@@ -15,7 +15,25 @@ const variants = {
     y: 0,
     transition: {
       duration: 1,
-      staggerChildren: 0.1,
+      staggerChildren: 0.3,
+    },
+  },
+};
+
+const variants1 = {
+  initial: {
+    x: 0,
+    y: 100,
+    opacity: 0,
+  },
+
+  animate: {
+    x: 0,
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1,
+      staggerChildren: 0.3,
     },
   },
 };
@@ -35,33 +53,25 @@ function Services() {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on building beautiful <br /> and performant websites
+          I have used and worked with <br /> the following technologies in my
+          projects.
         </p>
         <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="people.webp" alt="" />
           <h1>
-            Key
+            My
             <motion.b whileHover={{ color: "orange" }}> Skills</motion.b>
           </h1>
-        </div>
-        <div className="title">
-          <h1>
-            And
-            <motion.b whileHover={{ color: "orange" }}> Expertise In</motion.b>
-          </h1>
-          <button>
-            <a href="#Portfolio">WHAT WE DID?</a>
-          </button>
         </div>
       </motion.div>
 
       <motion.div className="listContainer" variants={variants}>
-        <motion.div className="boxContainer">
+        <motion.div className="boxContainer" variants={variants1}>
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="React.webp" alt="" />
@@ -69,6 +79,7 @@ function Services() {
           </motion.div>
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="htmlcss.png" alt="" />
@@ -76,6 +87,7 @@ function Services() {
           </motion.div>
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="JS.png" alt="" />
@@ -83,6 +95,7 @@ function Services() {
           </motion.div>
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="nodejs1.png" alt="" />
@@ -91,6 +104,7 @@ function Services() {
 
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="mysql.png" alt="" />
@@ -98,9 +112,10 @@ function Services() {
           </motion.div>
         </motion.div>
 
-        <motion.div className="boxContainer">
+        <motion.div className="boxContainer" variants={variants1}>
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="C+.png" alt="" />
@@ -108,6 +123,7 @@ function Services() {
           </motion.div>
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="python.png" alt="" />
@@ -115,6 +131,7 @@ function Services() {
           </motion.div>
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="flutter.png" alt="" />
@@ -122,6 +139,7 @@ function Services() {
           </motion.div>
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="figma.png" alt="" />
@@ -129,6 +147,7 @@ function Services() {
           </motion.div>
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="git.png" alt="" />
@@ -143,6 +162,7 @@ function Services() {
         <motion.div className="boxContainer">
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="React.webp" alt="" />
@@ -150,6 +170,7 @@ function Services() {
           </motion.div>
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="htmlcss.png" alt="" />
@@ -157,6 +178,7 @@ function Services() {
           </motion.div>
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="JS.png" alt="" />
@@ -167,6 +189,7 @@ function Services() {
         <motion.div className="boxContainer">
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="nodejs1.png" alt="" />
@@ -175,6 +198,7 @@ function Services() {
 
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="mysql.png" alt="" />
@@ -182,6 +206,7 @@ function Services() {
           </motion.div>
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="C+.png" alt="" />
@@ -189,9 +214,10 @@ function Services() {
           </motion.div>
         </motion.div>
 
-        <motion.div className="boxContainer">
+        <motion.div className="boxContainer" variants={variants1}>
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="python.png" alt="" />
@@ -199,6 +225,7 @@ function Services() {
           </motion.div>
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="flutter.png" alt="" />
@@ -206,6 +233,7 @@ function Services() {
           </motion.div>
           <motion.div
             className="box"
+            variants={variants1}
             whileHover={{ background: "lightgray", color: "black", scale: 1.1 }}
           >
             <img src="figma.png" alt="" />
