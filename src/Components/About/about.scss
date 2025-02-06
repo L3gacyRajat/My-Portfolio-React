@@ -29,7 +29,7 @@
             font-size: 96px;
             font-weight: 100;
             @include mobile{
-                font-size: 36px;
+                font-size: 32px;
             }
         }
         
@@ -48,6 +48,8 @@
     @include mobile{
         flex-direction: column;
         width: 100%;
+        gap:20px;
+        padding: 10px;
     }
     .image{
         img{
@@ -75,6 +77,10 @@
         p{
             font-size: 18px;
             line-height: 1.5;
+            @include mobile{
+                font-size: 12px;
+                line-height: none;
+            }
 
             ul{
                 list-style: disc inside;
@@ -90,7 +96,7 @@
   .socialMedia{
     margin-top: -10px;
     @include mobile{
-        margin-top: 10px;
+        margin-top: 0px;
     }
     text-align: center;
     h3{

@@ -33,12 +33,16 @@
                 // color: rebeccapurple;
                 color: rgb(223, 74, 74);
                 letter-spacing: 9px;
+                @include mobile{
+                    font-size: 20px;
+                    letter-spacing: 5px;
+                }
             }
 
             h1{
                 font-size: 76px;
                 @include mobile{
-                    font-size: 36px;
+                    font-size: 32px;
                 }
             }
 

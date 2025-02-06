@@ -3,6 +3,13 @@
     height: 100px;
     background: white;
     color:black;
+    .sidebar{
+        display: none;
+        @include mobile{
+            display: block;
+            cursor: pointer;
+        }
+    }
     .wrapper{
         max-width: 1366px;
         margin: auto;
@@ -28,6 +35,9 @@
             display: flex;
             gap: 20px;
             align-items: center;
+            @include mobile{
+                display: none;
+            }
 
             img{
                 height: 18px;

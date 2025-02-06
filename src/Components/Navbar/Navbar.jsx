@@ -1,10 +1,14 @@
 import "./navbar.scss";
 import { motion } from "framer-motion";
+import Sidebar from "../Sidebar/Sidebar";
 
 export default function Navbar() {
   const items = ["Homepage", "Skills", "Portfolio", "Contact", "About Me"];
   return (
     <div className="navbar">
+      <div className="sidebar">
+        <Sidebar />
+      </div>
       <div className="wrapper">
         <motion.span
           initial={{ opacity: 0, scale: 0.5 }}
